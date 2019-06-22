@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "start": "node server/index.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
     "build:prod": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "build:dev": "cross-env NODE_ENV=production webpack --watch --progress --hide-modules"
