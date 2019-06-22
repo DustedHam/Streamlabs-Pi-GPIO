@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#app {
+    padding: 10px;
+}
+.form-div {
+    padding: 10px;
+}
+.form-label {
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+}
+.form-input {
+    width: 100px;
+}
